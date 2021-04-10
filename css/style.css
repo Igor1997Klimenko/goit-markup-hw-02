@@ -1,0 +1,130 @@
+:root {
+  --main-blu-tx: #2196f3;
+  --blc-clr-txt: #212121;
+  --title-cl: #757575;
+  --alt-title-cl: #ffffff;
+  --dark-bg: #2f303a;
+  --serv-bg: #e5e5e5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--blc-clr-txt);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*Шапка сайта*/
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--main-blu-tx);
+}
+.lg {
+  color: var(--blc-clr-txt);
+}
+
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--blc-clr-txt);
+}
+.link {
+  color: var(--main-blu-tx);
+}
+.mobile {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-cl);
+}
+
+/*Заказать услуги*/
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--alt-title-cl);
+}
+.heading {
+  background-color: var(--dark-bg);
+}
+.button {
+  background-color: var(--main-blu-tx);
+  color: var(--alt-title-cl);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/*Home page*/
+.subject {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--blc-clr-txt);
+  text-transform: uppercase;
+}
+.text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--title-cl);
+}
+
+/*Должности компании*/
+.caption {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--blc-clr-txt);
+}
+/*Teaching team*/
+.subject {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--blc-clr-txt);
+}
+.item {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-cl);
+}
+/*Подвал главной странице*/
+.foot {
+  background-color: var(--dark-bg);
+}
+.lp {
+  color: var(--serv-bg);
+}
+.adress {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--alt-title-cl);
+}
+.end {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
