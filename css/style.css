@@ -89,6 +89,8 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  cursor: pointer;
+  font-family: Roboto;
 }
 /*Home page*/
 .subject {
@@ -172,6 +174,8 @@ a {
   line-height: 1.62;
   color: var(--blc-clr-txt);
   background-color: var(--sctn-ftr);
+  cursor: pointer;
+  font-family: Roboto;
 }
 .butt {
   background-color: var(--main-blu-tx);
