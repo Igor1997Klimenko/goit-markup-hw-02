@@ -93,12 +93,13 @@ a {
   font-family: Roboto;
 }
 /*Home page*/
-.subject {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.14;
+.subj {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   color: var(--blc-clr-txt);
-  text-transform: uppercase;
+
+  /*text-transform: uppercase;*/
 }
 .text {
   font-style: normal;
@@ -119,9 +120,10 @@ a {
   background-color: var(--serv-bg);
 }
 .subject {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
   color: var(--blc-clr-txt);
 }
 .item {
@@ -175,7 +177,7 @@ a {
   color: var(--blc-clr-txt);
   background-color: var(--sctn-ftr);
   cursor: pointer;
-  font-family: Roboto;
+  font-family: inherit;
 }
 .butt {
   background-color: var(--main-blu-tx);
