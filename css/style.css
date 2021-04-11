@@ -5,11 +5,13 @@
   --alt-title-cl: #ffffff;
   --dark-bg: #2f303a;
   --serv-bg: #e5e5e5;
+  --sctn-ftr: #f5f4fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
+  background-color: var(--alt-title-cl);
 }
 
 h1,
@@ -27,6 +29,9 @@ a {
   text-decoration: none;
 }
 /*Шапка сайта*/
+.header {
+  background-color: var(--alt-title-cl);
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -45,15 +50,24 @@ a {
   letter-spacing: 0.02em;
   color: var(--blc-clr-txt);
 }
-.link {
+.list {
   color: var(--main-blu-tx);
 }
+.nav:hover,
+.nav:active {
+  color: var(--main-blu-tx);
+}
+
 .mobile {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-cl);
+}
+.mobile:hover,
+.mobile:active {
+  color: var(--main-blu-tx);
 }
 
 /*Заказать услуги*/
@@ -68,10 +82,9 @@ a {
 .heading {
   background-color: var(--dark-bg);
 }
-.button {
+.buttons {
   background-color: var(--main-blu-tx);
   color: var(--alt-title-cl);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -100,6 +113,9 @@ a {
   color: var(--blc-clr-txt);
 }
 /*Teaching team*/
+.page {
+  background-color: var(--serv-bg);
+}
 .subject {
   font-weight: 500;
   font-size: 16px;
@@ -111,6 +127,9 @@ a {
   line-height: 1.19;
   color: var(--title-cl);
 }
+.page-two {
+  background-color: var(--sctn-ftr);
+}
 /*Подвал главной странице*/
 .foot {
   background-color: var(--dark-bg);
@@ -119,12 +138,54 @@ a {
   color: var(--serv-bg);
 }
 .adress {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 24px;
   color: var(--alt-title-cl);
 }
 .end {
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+}
+.adress:hover,
+.adress:active {
+  color: var(--main-blu-tx);
+}
+.end:hover,
+.end:active {
+  color: var(--main-blu-tx);
+}
+/*Страница портфолио*/
+.main-two {
+  background-color: var(--serv-bg);
+}
+
+/*Кнопки*/
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--blc-clr-txt);
+  background-color: var(--sctn-ftr);
+}
+.butt {
+  background-color: var(--main-blu-tx);
+  color: var(--alt-title-cl);
+}
+/*Портфолио картинок*/
+.txt {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--blc-clr-txt);
+}
+.abzats {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--title-cl);
 }
